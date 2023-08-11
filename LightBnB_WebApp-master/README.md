@@ -55,7 +55,7 @@
 * `server.js` is the entry point to the application. This connects the routes to the database.
 
 ## Final Product
-
+!["Screenshot of login page"]()
 
 ## Getting Started
 
