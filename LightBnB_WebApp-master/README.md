@@ -55,10 +55,10 @@
 * `server.js` is the entry point to the application. This connects the routes to the database.
 
 ## Final Product
-!["Screenshot of login page"](https://raw.githubusercontent.com/shivangi0109/LightBnB/87d7a2bb107976a4cc77cc52f632409a163fa805/LightBnB_WebApp-master/docs/login-page.png)
-!["Screenshot of get all reservations"](https://raw.githubusercontent.com/shivangi0109/LightBnB/87d7a2bb107976a4cc77cc52f632409a163fa805/LightBnB_WebApp-master/docs/get-all-resservations.png)
-!["Screenshot of get all properties form"](https://raw.githubusercontent.com/shivangi0109/LightBnB/87d7a2bb107976a4cc77cc52f632409a163fa805/LightBnB_WebApp-master/docs/get-all-properties.png)
-!["Screenshot of get all properties result"](https://raw.githubusercontent.com/shivangi0109/LightBnB/87d7a2bb107976a4cc77cc52f632409a163fa805/LightBnB_WebApp-master/docs/get-all-properties-result.png)
+!["Screenshot of login page"](https://github.com/shivangi0109/LightBnB/blob/main/LightBnB_WebApp-master/docs/login-page.png?raw=true)
+!["Screenshot of get all reservations"](https://github.com/shivangi0109/LightBnB/blob/main/LightBnB_WebApp-master/docs/get-all-reservations.png?raw=true)
+!["Screenshot of get all properties form"](https://github.com/shivangi0109/LightBnB/blob/main/LightBnB_WebApp-master/docs/get-all-properties.png?raw=true)
+!["Screenshot of get all properties result"](https://github.com/shivangi0109/LightBnB/blob/main/LightBnB_WebApp-master/docs/get-all-properties-result.png?raw=true)
 
 ## Getting Started
 
