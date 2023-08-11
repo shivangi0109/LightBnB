@@ -1,6 +1,3 @@
-// const properties = require("./json/properties.json");
-// const users = require("./json/users.json");
-
 const { Pool } = require('pg');
 
 // Create a new pool instance using your database configuration
@@ -99,8 +96,6 @@ const getUserWithEmail = function (email) {
     });
 };
 
-// getUserWithEmail('michaelgray@mail.com');
-
 /**
  * Get a single user from the database given their id.
  * @param {string} id The id of the user.
@@ -121,8 +116,6 @@ const getUserWithId = function (id) {
       console.log(err.message);
     });
 };
-
-// getUserWithId(7);
 
 /**
  * Add a new user to the database.
