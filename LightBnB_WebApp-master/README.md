@@ -53,3 +53,49 @@
 * `routes` contains the router files which are responsible for any HTTP requests to `/users/something` or `/api/something`. 
 * `styles` contains all of the sass files. 
 * `server.js` is the entry point to the application. This connects the routes to the database.
+
+## Final Product
+
+
+## Getting Started
+
+- Download the project from https://github.com/lighthouse-labs/LightBnB_WebApp.
+- Don't clone this project, just select the Download Zip option.
+- Once the project has downloaded:
+  - Extract and drag the extracted LightBnB_WebApp folder into your lightbnb folder.
+  - cd into the LightBnB_WebApp directory.
+  - Install any dependencies with npm i.
+- Run the app npm run local and view it at localhost:3000.
+- You may need to have npx installed first. npm install -g npx.
+
+- node-postgres is a library that allows us to connect to our PostgreSQL database, directly from our node applications. Run npm install pg.
+- When we're using terminal to execute SQL queries, we first have to connect to the database using a client app like psql. If we wanted to connect to the lightbnb    database, we could enter psql lightbnb OR psql -h localhost -p 5432 -U vagrant lightbnb into terminal.
+- This will connect us to a PostgreSQL database running on localhost port 5432 with the user vagrant.
+- If you are prompted for a password you may need to update your vagrant user with a new password by following the steps below:
+  - Go into psql
+  - Run \password
+  - Type 123 and hit Enter
+- Using node-postgres, we can connect to our database without specifying any options:
+
+```JavaScript
+const { Pool } = require('pg');
+
+const pool = new Pool();
+```
+
+OR 
+
+- we can specify different connection options:
+
+```JavaScript
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  user: 'vagrant',
+  password: '123',
+  host: 'localhost',
+  database: 'lightbnb'
+});
+```
+
+- Test this query SELECT * FROM users WHERE email = 'michaelgray@mail.com'; in psql, if it is working.
